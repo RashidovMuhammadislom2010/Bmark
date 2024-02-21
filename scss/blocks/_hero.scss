@@ -1,0 +1,83 @@
+.customer {
+    position: relative;
+
+}
+
+.customer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-left {
+    margin-top: 262px;
+}
+
+.customer-title {
+    width: 554.99px;
+    height: 137.86px;
+    top: 331.27px;
+    left: 374.96px;
+    font-family: Catamaran;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.customer-text {
+    width: 487.94px;
+    height: 58.49px;
+    top: 506.73px;
+    left: 374.96px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color:  #3D3D3D;
+    margin-bottom: 50px;
+}
+
+.customer-sign {}
+
+.customer-form {
+    display: block;
+    width: 370.99px;
+    height: 50.91px;
+    left: 0.13px;
+    border-radius: 15px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 16px;
+}
+
+.customer-input {
+    border: none;
+    margin-left: 3px;
+}
+
+.customer-link-btn {
+    border: none;
+    background-color: #D22238;
+    margin-top: 3px;
+    padding: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 80px;
+}
+
+.customer-about-tetx {}
+
+.customer-about-span {
+    color: #D22238;
+}
+
+.customer-right {}
+
+.customer-img {
+    width: 600px;
+}

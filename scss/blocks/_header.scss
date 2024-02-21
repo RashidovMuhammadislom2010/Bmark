@@ -1,0 +1,26 @@
+.header {
+    padding: 30px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    gap: 44.55px;
+    list-style: none;
+}
+
+.header-item-link {
+    text-decoration: none;
+}
+
+.header-flag-img-link {
+    text-decoration: none;
+}
+
+.header-flag-img {
+    margin-left: 5px;
+}
