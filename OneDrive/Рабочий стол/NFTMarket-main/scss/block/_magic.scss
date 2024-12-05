@@ -1,0 +1,110 @@
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .magic {
+    min-height: 100vh;
+     background: url("mashroom.jpg"), linear-gradient(180deg,#7223c642, rgba(162, 89, 255, 0.7), );
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    min-height: calc(120vh - 60px);
+         background-size: cover;
+      background-position: center;
+         background-repeat: no-repeat;
+  }
+  
+  .magic__inner {
+    text-align: center;
+  }
+
+  .out {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.right {}
+
+.left {}
+  
+  .magic__btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .magic__btn .btn-icon {
+    width: 24px;
+    height: 24px;
+    background: url('avatar.png') no-repeat center / cover;
+    border-radius: 50%;
+  }
+  
+  .magic__title {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .magic__NFT-btn {
+    padding: 15px 30px;
+    border: none;
+    background: #a259ff;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .timer {
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 310px;
+  }
+  
+  .timer__title {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: $white;
+  }
+  
+  .time {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    color: $white;
+  }
+  
+  .unit {
+    text-align: center;
+  }
+  
+  .unit span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .label {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
