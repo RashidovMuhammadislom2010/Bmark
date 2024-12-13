@@ -1,0 +1,98 @@
+.hero__menu {
+    display: flex;
+    gap: 1.2px;
+    margin-top: 32px;
+  }
+
+  .hero__item {
+    display: flex;
+    width: 140px;
+    height: 35px;
+    background: #000000;
+    color:  #FFFFFF;
+    padding: 8px 10px;
+  }
+
+  .hero__item-two {
+    display: flex;
+    width: 140px;
+    height: 35px;
+    background: #000000;
+    color:  #FFFFFF;
+    padding: 8px 10px;
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  .hero__item-three {
+    display: flex;
+    width: 140px;
+    height: 35px;
+    background: #000000;
+    color:  #FFFFFF;
+    padding: 8px 10px;
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  .hero__title {
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 600;
+line-height: 32.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+  }
+
+  .hero__title-two {
+    font-family: Roboto;
+font-size: 48px;
+font-weight: 600;
+line-height: 48.3px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 18px;
+  }
+
+  .hero__title-three {
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+line-height: 32.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #DC4433;
+margin-top: 18px;
+  }
+
+  .hero__wrapper {
+    margin-top: 80px;
+  }
+
+  .hero__text {
+    margin-top: 18px;
+  }
+
+  .hero__image {
+    background-image: url("../../assests/imgs/image\ 42.svg");
+    background-size: contain;
+    width: 875px;
+    height: 368px;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+  }
+
+  .hero__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: px;
+    margin-left: 50px;
+  }
+
+  @media only screen and (max-width:960px) {
+    .hero__box {
+      gap: 1px;
+    }
+  }
